@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creative Thinking (Good, Bad, Interesting)</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 59 </p><h1>Creative Thinking (Good, Bad, Interesting)</h1>
+  <p> By applying certain thinking skills, even people with average intelligence can seem like geniuses.</p>
+  <p> Dr. Edward de Bono, a psychologist and professor of investigative medicine at Cambridge University, created the phrase "lateral thinking" to depict the type of thinking attitude that comes with seeking solutions to problems through unorthodox methods or playing games with the data.</p>
+  <p> This is different from "vertical" thinking where one solves a problem by going from one logical step to the next in achieving a solution.</p>
+  <p> Some people refer to it as a right brain creative approach rather than a left brain analytical one.</p>
+  <p> Oftentimes, people become blocked with one-sided opinions without seeing alternative sides to an issue.</p>
+  <p> If you memorized the Encyclopedia Britannica, but did not have the ability to creatively apply what you memorized, its value would be minimal.</p>
+  <p> Education without learning direct applicability to your life is unproductive.</p>
+  <p> When exposed to a new idea, most people react by either liking it or disliking it.</p>
+  <p> Then they use their intelligence to defend their decision because of their need to be right.</p>
+  <p> Now with this exercise, stretch your imagination; think wild; suspend your judgment; and write down on a sheet of paper the good, bad and interesting points for the following topics using the examples only as a guide:</p>
+  <p> 1) Pesticides On Crops Example: Good - Harmful insects are killed.</p>
+  <p> Bad - Beneficial insects are killed.</p>
+  <p> Interesting - Chemical companies make a lot of money.</p>
+  <p> 2) Poor Education & Illiteracy Example: Good - Manual labor force is kept supplied.</p>
+  <p> Bad - People have little foundation to make sound decisions outside narrow areas.</p>
+  <p> Interesting - Poorly educated thinkers are easier to influence into emotional product buying.</p>
+  <p> 3) Pollution of Air, Soil, Food & Water Example: Good - Chemical companies don't have to adopt costly preventive measures by keeping it as it is.</p>
+  <p> Bad - Biological populations disease and die earlier.</p>
+  <p> Interesting - People grow accustomed to pollution as being normal in the world.</p>
+  <p> 4) Disease Example: Good - Medical & pharmaceutical companies make loads of money.</p>
+  <p> Bad - Population suffers misery and early death.</p>
+  <p> Interesting - It often brings a sharp awareness of the meaning of a healthy life.</p>
+
+</body>
+</html>

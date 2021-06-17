@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Image-Streamin</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 53 </p><h1>Image-Streaming</h1>
+  <p> One visualization process devised by Win Wenger, Ph.D. is called imagestreaming.</p>
+  <p> It involves a method of drawing from the subconscious the sensory images for conscious interpretation.</p>
+  <p> The concept being that solutions to problems are always within you - they just need to be elicited and interpreted.</p>
+  <p> As an exercise in problem solving, pose a question to yourself and write it down.</p>
+  <p> You can work with a partner or a tape recorder, but start by sitting back, relaxing and closing your eyes.</p>
+  <p> Begin by tuning into the visual images that present themselves and describe aloud your first, immediate impressions in rapid-flow, sensory detail.</p>
+  <p> Note and explain the sounds, tactile sensations, tastes and emotional feelings you have as more free images emerge.</p>
+  <p> Ask yourself questions as the images appear.</p>
+  <p> Watch and listen for image answers or verbal answers.</p>
+  <p> You can prompt the visual imaging process by staring at a bright light and closing the eyes or pinching the closed eyelids for a phosphene effect or simply imagining a closed door and flinging it open in your mind.</p>
+  <p> In all cases, you describe the visual messages that come to you afterwards and attempt to integrate these subconsciously prompted images with conscious interpretation for improved creativity.</p>
+  <p> The process of describing aloud the mind’s images allows the conscious mind to involve itself in this right brain activity.</p>
+  <p> Ask yourself questions as images are acknowledged.</p>
+  <p> Feel the texture of the images.</p>
+  <p> Connect any sounds or smells that are involved with images.</p>
+  <p> Move the images around or open them up or go beyond them in some way, and describe the result.</p>
+  <p> If you’re having some difficulty with interpretation, ask your higher self for assistance in understanding your images.</p>
+  <p> Continue for a few minutes, then rest and image-stream again for a new set of images for the same question.</p>
+  <p> Repeat the process again for a third time with the same question or problem.</p>
+  <p> Then look at your sensory image answers.</p>
+  <p> What’s the same?</p>
+  <p> What’s different?</p>
+  <p> Can you relate any of these elements to your original problem, keeping in mind that the image answers may be symbolic in some way?</p>
+  <p> Win Wenger declares that doing image-streaming on a regular basis can increase your I.Q. and allow more creativity in your life, so practice this exercise often.</p>
+
+</body>
+</html>

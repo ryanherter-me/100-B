@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Mastering Analytical Thinking</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 58 </p><h1>Mastering Analytical Thinking</h1>
+  <p> Mental exercise brings about brain stimulation, which brings about growth.</p>
+  <p> Unfortunately, the average person doesn’t exercise their brain too much.</p>
+  <p> Here are some reasoning problems that will STRE-E-TCH your mental 'muscles,' and provide you with some fun.</p>
+  <p> 1) A man looks at a picture of a man on the wall and says "Brothers and sisters, I have none; but that man's father is my father's son!"</p>
+  <p> Who is the man in the picture?</p>
+  <p> 2) There are 3 cartons containing 2 hats each.</p>
+  <p> In one carton there are 2 black hats; in another there are 2 white hats; and in a third, there is a white hat and a black hat.</p>
+  <p> There are 3 labels BB - WW - WB placed incorrectly on each carton.</p>
+  <p> You are to label the cartons correctly, and for identification purposes, you can pull out as many hats as necessary.</p>
+  <p> What is the minimum number of hats that must be looked at to accomplish the correct labeling job and why?</p>
+  <p> 3) If a duck and a half lays an egg and a half in a day and a half, how many eggs would 6 ducks lay in 6 days?</p>
+  <p> 4) Jim and John are both older than Joe.</p>
+  <p> Lorraine is younger than Jim, but older than John.</p>
+  <p> Marge is older than Jim.</p>
+  <p> Who is the youngest and who is next to the youngest?</p>
+  <p> 5) With each letter representing one number, identify the correct numbers in the subtraction problem.</p>
+  <p> ZBZ - CZ ZB 100</p>
+  <p> INNOVATIVE THINKING ANSWERS:</p>
+  <p> 1) His son.</p>
+  <p> 2) You only need to take one hat from the carton labeled WB.</p>
+  <p> If it is black, then the carton must contain two black hats since the WB label is wrong.</p>
+  <p> If it is white, then the carton must contain 2 white hats.</p>
+  <p> After the BB or WW carton has been established, the other 2 cartons are simply marked opposite of the 2 remaining choices.</p>
+  <p> BB Contents Labeled: Labeled: WW Contents WB Contents WB BB WW WW Contents WB Contents BB Contents WB BB WW 3) If a duck and a half lays an egg and a half in a day and a half, it would lay twice as many eggs in twice the time.</p>
+  <p> Therefore, in three days it would lay 3 eggs and in 6 days it would lay 6 eggs.</p>
+  <p> If a duck and a half lays 6 eggs in 6 days then 6 ducks (being 4 times greater than one and a half) would lay 4 times 6 or 24 eggs in the 6 days.</p>
+  <p> 4) Joe is the youngest, and John is the next to the youngest.</p>
+  <p> 5) 101 - 91 10.</p>
+
+</body>
+</html>
