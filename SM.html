@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Super Memory</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+<title>Super Memory</title>
+<h3><a href="SM/E078.html">Exercise 78 - Positivity For A Better Memory</a></h3>
+<h3><a href="SM/E079.html">Exercise 79 - Ridiculous Associations</a></h3>
+<h3><a href="SM/E080.html">Exercise 80 - Attention To Detail</a></h3>
+<h3><a href="SM/E081.html">Exercise 81 - Concentration & Eidetic Imaging</a></h3>
+<h3><a href="SM/E082.html">Exercise 82 - Developing A Photographic Memory</a></h3>
+<h3><a href="SM/E083.html">Exercise 83 - Rhythmic Memorizing</a></h3>
+<h3><a href="SM/E084.html">Exercise 84 - Observational Recall</a></h3>
+<h3><a href="SM/E085.html">Exercise 85 - Using Sensory Learning h3s</a></h3>
+<h3><a href="SM/E086.html">Exercise 86 - Speed Learning Foreign Vocabulary</a></h3>
+<h3><a href="SM/E087.html">Exercise 87 - Peg System For Numbers</a></h3>
+<h3><a href="SM/E088.html">Exercise 88 - Peg System For Lists</a></h3>
+<h3><a href="SM/E089.html">Exercise 89 - Remembering Names</a></h3>
+<h3><a href="SM/E090.html">Exercise 90 - Loci System For Remembering</a></h3>
+<h3><a href="SM/E091.html">Exercise 91 - Improving Your Memory For Odors</a></h3>
+<h3><a href="SM/E092.html">Exercise 92 - 61-Hour Language Immersion</a></h3>
+<h3><a href="SM/E093.html">Exercise 93 - Sleep-Learning</a></h3>
+</body>
+</html>

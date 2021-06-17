@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title></title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+<title>Heightened Sensory</title>
+<h3><a href="HS/E094.html">Exercise 94 - Imagining Your Senses</a></h3>
+<h3><a href="HS/E095.html">Exercise 95 - Experiencing Another Person's Senses</a></h3>
+<h3><a href="HS/E096.html">Exercise 96 - Developing Synesthesia</a></h3>
+<h3><a href="HS/E097.html">Exercise 97 - Improving Your Kinesthetic Instincts</a></h3>
+<h3><a href="HS/E098.html">Exercise 98 - Body Temperature Control</a></h3>
+<h3><a href="HS/E099.html">Exercise 99 - Improving Your Kinesthetic Awareness</a></h3>
+<h3><a href="HS/E100.html">Exercise 100 - Self-Massage</a></h3>
+<h3><a href="HS/E101.html">Exercise 101 - Improving Your Taste Discernment</a></h3>
+<h3><a href="HS/E102.html">Exercise 102 - Tactile Temperature Determination</a></h3>
+<h3><a href="HS/E103.html">Exercise 103 - Improving Your Tactile Discernment</a></h3>
+<h3><a href="HS/E104.html">Exercise 104 - Improving The Tactile Awareness Of Your Toe</a></h3>
+<h3><a href="HS/E105.html">Exercise 105 - Learning The Language Of Touch</a></h3>
+<h3><a href="HS/E106.html">Exercise 106 - Kinesthetic Weight Determination</a></h3>
+<h3><a href="HS/E107.html">Exercise 107 - Electromagnetic Field Awareness</a></h3>
+<h3><a href="HS/E108.html">Exercise 108 - Electromagnetic Tactile Discernment</a></h3>
+<h3><a href="HS/E109.html">Exercise 109 - Improving Your Magnetic Awareness</a></h3>
+<h3><a href="HS/E110.html">Exercise 110 - Improving Your Peripheral Vision Awareness</a></h3>
+<h3><a href="HS/E111.html">Exercise 111 - Using Your Peripheral Vision</a></h3>
+<h3><a href="HS/E112.html">Exercise 112 - Seeing With Your Skin & Body</a></h3>
+<h3><a href="HS/E113.html">Exercise 113 - Eyeless Sight</a></h3>
+<h3><a href="HS/E114.html">Exercise 114 - Vibrational Sight</a></h3>
+<h3><a href="HS/E115.html">Exercise 115 - Seeing The Human Etheric Bod</a></h3>
+<h3><a href="HS/E116.html">Exercise 116 - Aura Seeing</a></h3>
+<h3><a href="HS/E117.html">Exercise 117 - Numbing Touch For Pain Control</a></h3>
+<h3><a href="HS/E118.html">Exercise 118 - Closing Off One Of Your Senses</a></h3>
+<h3><a href="HS/E119.html">Exercise 119 - Mindfulness: Improving Your Conscious Awareness</a></h3>
+
+</body>
+</html>

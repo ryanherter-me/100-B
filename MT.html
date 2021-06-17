@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Multi-Tasking</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+<title>Multi-Tasking</title>
+<h3><a href="MT/E120.html">Exercise 120 - Simultaneous Motor Coordination</a></h3>
+<h3><a href="MT/E121.html">Exercise 121 - Writing and Speaking Simultaneously</a></h3>
+<h3><a href="MT/E122.html">Exercise 122 - Simultaneous Conversation Awareness</a></h3>
+<h3><a href="MT/E123.html">Exercise 123 - A Multiple Hearing Acuity</a></h3>
+<h3><a href="MT/E124.html">Exercise 124 - Learning To Be Ambidextrous</a></h3>
+<h3><a href="MT/E125.html">Exercise 125 - Writing Mirror Language</a></h3>
+<h3><a href="MT/E126.html">Exercise 126 - Multi-Tracking On A Trampoline</a></h3>
+<h3><a href="MT/E127.html">Exercise 127 - Alphabet Gymnastics</a></h3>
+<h3><a href="MT/E128.html">Exercise 128 - 3-Letter Word Calisthenics</a></h3>
+<h3><a href="MT/E129.html">Exercise 129 - 4-Letter Word Calisthenics</a></h3>
+<h3><a href="MT/E130.html">Exercise 130 - 3-Letter Word Intermingling</a></h3>
+<h3><a href="MT/E131.html">Exercise 131 - 4-Letter Word Intermingling</a></h3>
+<h3><a href="MT/E132.html">Exercise 132 - 5-Letter Word Calisthenics</a></h3>
+<h3><a href="MT/E133.html">Exercise 133 - Multiple Word Intermingling</a></h3>
+<h3><a href="MT/E134.html">Exercise 134 - Back And Forth Word Intermingling</a></h3>
+<h3><a href="MT/E135.html">Exercise 135 - Backward Word Intermingling</a></h3>
+<h3><a href="MT/E136.html">Exercise 136 - Jumbled Words</a></h3>
+<h3><a href="MT/E137.html">Exercise 137 - Backward Sentence Writing</a></h3>
+<h3><a href="MT/E138.html">Exercise 138 - Sentence Intermingling</a></h3>
+<h3><a href="MT/E139.html">Exercise 139 - Jumbled Sentences</a></h3>
+<h3><a href="MT/E140.html">Exercise 140 - 7 & 8-Letter Word Calisthenics</a></h3>
+<h3><a href="MT/E141.html">Exercise 141 - Intermingling & Spelling Simultaneously</a></h3>
+
+</body>
+</html>

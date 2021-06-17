@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+  color: gold;
+  margin: 2em
+
+}
+
+title{
+  font-size: 2.15em;
+  font-family: Rancho;
+  margin: 40px 0;
+  text-align: center;
+}
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
