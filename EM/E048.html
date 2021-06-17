@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Changing Emotions Via Odors</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 48 </p><h1>Changing Emotions Via Odors</h1>
+  <p> The limbic system governs the primal urges of sex, hunger, anger, pleasure and fear; and olfactory impulses have direct pathways to this same center of the brain.</p>
+  <p> Consequently, odors and primitive emotions have a closer association because of this link-up in the limbic system.</p>
+  <p> In one experiment, human subjects were asked to complete a frustrating task as they were exposed to an unfamiliar odor.</p>
+  <p> Later the same negative emotions associated with frustration occurred when exposed to that same odor.</p>
+  <p> Scent manufacturers make millions of dollars each year by capitalizing on this connection in their attempt to emotionally get you to buy a particular product with a favorable odor - from soaps to perfumes.</p>
+  <p> For this exercise, purchase a bottle of already blended natural essence from your local natural food store that has an unusual or unfamiliar odor - perhaps ambergris, civet, oak moss or myrrh.</p>
+  <p> Now take it to a party or friend's house where you're likely to experience joy, laughter or some other pleasurable experience.</p>
+  <p> At the optimal height of one of these good feelings, put a few drops of the essence on your arm and smell it frequently.</p>
+  <p> In the future, to get out of a 'down' or negative mood, whip out your essence and begin smelling it again!</p>
+  <p> You should become elated very quickly.</p>
+  <p> Laugh and smile to yourself when this happens, for it enhances the effect.</p>
+
+</body>
+</html>

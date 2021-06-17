@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title></title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 17 </p><h1>Concentration To Relieve Stress</h1>
+  <p> When you choose to replay negative thought patterns during your normal day, it often keeps you in a negative state.</p>
+  <p> A simple exercise in concentration can do wonders in breaking a negative condition, and it can also give you immediate relief!</p>
+  <p> Choose an object, a geometric design, a picture or a candle flame, and while in a relaxed position, direct your TOTAL conscious awareness toward observing it.</p>
+  <p> Empty your mind of all thoughts and distractions as if nothing else existed except that object or picture.</p>
+  <p> Purposefully blank your mind of internal comments, evaluations or stray pictures.</p>
+  <p> Do this for 60 seconds without interruption.</p>
+  <p> If an interruptive thought occurs, or your conscious awareness fleets even for a moment to an extraneous sound or other sensory stimuli, start over again, but do this for one full minute.</p>
+  <p> To illustrate, look at the black dot in the middle of the circle for 1 full minute without distraction.</p>
+  <p> As simple as this exercise sounds, you'll be surprised how casual thoughts or interruptions will try to creep into your mind.</p>
+  <p> Concentration in this way does not mean grimacing with a frown on your face.</p>
+  <p> It simply involves a relaxed focalization on one subject only.</p>
+  <p> Once you accomplish this externally, do the same exercise internally with your eyes closed.</p>
+  <p> Look at the subject matter first, then close your eyes and see it in your mind's eye.</p>
+  <p> This technique rotates the mind's resonance from negative to neutral to positive, where a feeling of relief is felt.</p>
+  <p> Afterwards, care must be taken not to have the same negative thought sequences shift you back again.</p>
+  <p> Even getting close to doing this exercise correctly will bring about good results, so practice it a lot.</p>
+  <p> It is the precursor to “<a href="EM/E020.html">Exercise 20 - Meditation</a>” discussed later.</p>
+
+</body>
+</html>

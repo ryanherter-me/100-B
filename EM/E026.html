@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title></title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 26 </p><h1>Rhythmic Breathing To Harmonize Body/Mind Processes</h1>
+  <p> Rhythmic breath control slows down body and mind rhythms and helps to resynchronize out-of-synch body/mind processes.</p>
+  <p> To begin this exercise, relax in a chair or lie down on a couch or bed and close your eyes.</p>
+  <p> Take in a slow, deep breath of as much air as you can hold.</p>
+  <p> Now exhale slowly, but completely.</p>
+  <p> Inhale 10 deep abdominal breaths and each time exhale slowly by pulling your abdomen in.</p>
+  <p> Now make your breathing rhythmic.</p>
+  <p> Inhale to the count of 4; hold it to the count of 4; exhale to the count of 4; and pause to the count of 4.</p>
+  <p> Repeat 3 cadences of this rhythmic pattern.</p>
+  <p> Now relax.</p>
+  <p> Next, inhale to the count of 6; hold it to the count of 6; exhale to the count of 6; and pause to the count of 6.</p>
+  <p> Repeat this process 3 times.</p>
+  <p> Now do the same thing to a count of 8.</p>
+  <p> Repeat that 3 times.</p>
+  <p> Do this series daily.</p>
+  <p> Another variation of this exercise is to do as above, but synchronize the counts of your breaths to the beats of your pulse.</p>
+  <p> Remember all breathing exercises should be done gently and never forced, so practice them frequently and during the idle moments throughout your day.</p>
+
+</body>
+</html>

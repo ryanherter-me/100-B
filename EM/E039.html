@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Boost A Person’s Sense Of Importance</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 39 </p><h1>Boost A Person’s Sense Of Importance</h1>
+  <p> With many people, there is a distinct need to feel important.</p>
+  <p> Without this feeling fulfilled, a person often suffers from self-doubt, guilt, insecurity and low self-worth.</p>
+  <p> Those same people will go to great lengths to maintain a good reputation, or to demonstrate that they are needed, or to gain a bit of self-esteem, or to prove their superiority, or to show that they're right, or even to meet a challenge presented to them.</p>
+  <p> If you diplomatically satisfy these areas to such ego-oriented people, you become master over any situation with them.</p>
+  <p> Their emotional mind loves it, and their logical mind is suspended.</p>
+  <p> As a daily exercise, exhibit a little thought when you handle your next people situation, and see how well it works.</p>
+  <p> For example: To a boss that normally reprimands you: "If it wasn't for your astute judgment, the efficiency of the company certainly wouldn't be as high.</p>
+  <p> It sure is fortunate that you keep everyone on their toes."</p>
+  <p> To a lover or spouse going through a bout of negativity: "You're the best example I know of someone doing the best he can in any situation.</p>
+  <p> Therefore I know that whatever decision you make, it'll be a good one."</p>
+  <p> As a further exercise, work with a friend and alternate with each other on skillful, ego-boosting remarks based on the principles outlined above.</p>
+  <p> In actual situations, they will work wonderfully, and they will seem a lot less artificial.</p>
+  <p> You'll be delighted and surprised.</p>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Concentration On Emptiness</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 19 </p><h1>Concentration On Emptiness</h1>
+  <p> Sit in a comfortable position and relax with your eyes closed for a few moments.</p>
+  <p> Now just observe your thoughts creeping into your consciousness, each one clamoring for attention -- daily events, emotional problems, future desires, etc.</p>
+  <p> Now imagine you are in a completely dark room with a large picture window covered by a black blind.</p>
+  <p> There is no pattern to the blind.</p>
+  <p> It is just black.</p>
+  <p> Concentrate now on that blind without allowing any distracting thoughts to intrude.</p>
+  <p> If they do, push them back out of the way.</p>
+  <p> Simply continue to concentrate on the black blind.</p>
+  <p> When you can hold an expression of complete blankness for just a short time, you will begin to have a different perspective, where time and distance take on a new meaning.</p>
+  <p> Continued practice gives you better and better control over the sundry idle thoughts constantly trying to invade your consciousness.</p>
+  <p> When you can control your thoughts during your daily life, you're one giant step further on your ladder of progressive development.</p>
+  <p> If it helps, imagine that you are a yogi or a lama that already has this power heightened to a fine tuned degree.</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Polarize Your Energy With Breathing</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 34 </p><h1>Polarize Your Energy With Breathing</h1>
+  <p> By methodically and rhythmically breathing in oxygen, the mind and body are charged with energy.</p>
+  <p> By visualizing a positive energy flow as you inhale and a negative energy flow as you exhale, worries and anxieties can be dissipated from your mind.</p>
+  <p> When performing this polarization exercise correctly, a tingling sensation is often felt with each breath.</p>
+  <p> To begin this exercise, lie down on a couch or bed with your feet pointing south and your head north to align yourself with the earth's magnetic field.</p>
+  <p> Assume a comfortable, relaxed position with your hands touching the sides of your body, palms up.</p>
+  <p> Begin breathing through your nose with slow, deep, abdominal breaths.</p>
+  <p> As you inhale, visualize warm, bright yellow sun energy drawing through the top of your head, surging through your body and exiting through the soles of your feet.</p>
+  <p> Imagine this yellow sun energy as a positive current.</p>
+  <p> Now slowly exhale and visualize cool, blue moon energy being drawn up through the bottom of your feet, pulsing through your body, and exiting through the top of your head.</p>
+  <p> Imagine this blue moon energy as a negative current.</p>
+  <p> Synchronize this visualization of the inhaling yellow and exhaling blue with the breathing process, and experience a sensing of vibration internally.</p>
+  <p> This will not only improve your concentration abilities, but it will also charge up your body in preparation for any new tasks of the day.</p>
+
+</body>
+</html>

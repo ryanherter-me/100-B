@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Changing Your Emotion Via Visualization</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 35 </p><h1>Changing Your Emotion Via Visualization</h1>
+  <p> Negative and positive emotions are simply states of mind.</p>
+  <p> Change your state of mind and you change the emotion.</p>
+  <p> Wallowing in negative emotional states can be habit forming for some people, so this exercise will trick the negative, emotional part of the brain into relinquishing its hold.</p>
+  <p> Why?</p>
+  <p> Because first we're going to increase the amount of that negative emotion so that you can wallow temporarily in more of it.</p>
+  <p> This exercise will also work on headaches or certain types of specific pain as well.</p>
+  <p> Now lie down and relax yourself completely starting from your toes and working up to your head.</p>
+  <p> Focus on deep, abdominal breathing and get comfortably relaxed.</p>
+  <p> Now visualize a bright, yellow weather balloon in front of you, about 5 feet in diameter.</p>
+  <p> Picture it growing bigger and bigger until it fills the room.</p>
+  <p> Now visualize the balloon shrinking and shrinking down to the 5-foot size again.</p>
+  <p> Increase its size and shrink it back again 2 more times.</p>
+  <p> Now go through the same imaging process, but this time with your negative emotion or pain contained inside the balloon.</p>
+  <p> Increase its size and feel the emotion or pain growing as you do this.</p>
+  <p> Now decrease its size suddenly by punching a small hole in the side of the balloon, and envision the negative emotion or pain leaving the balloon as it completely deflates down to just an empty bright yellow balloon.</p>
+  <p> Bright yellow is an uplifting color, and often has startling positive effects.</p>
+  <p> You can also keep a yellow piece of construction paper (3" X 5") in your wallet or pocketbook to use as a pick-me-up during the day by just pulling it out and concentrating on it momentarily.</p>
+
+</body>
+</html>

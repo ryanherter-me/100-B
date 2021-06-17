@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Guilt Reversal Visualization</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 14 </p><h1>Guilt Reversal Visualization</h1>
+  <p> There are many reasons for guilt in a person's mind.</p>
+  <p> A fat person might feel guilty about eating chocolates.</p>
+  <p> A child might feel guilty about lying to his parents.</p>
+  <p> A spouse might feel guilty about an infidelity.</p>
+  <p> But how do you un-eat something or unsay something or undo something?</p>
+  <p> You don't.</p>
+  <p> Then punishment is a natural recourse?!</p>
+  <p> You either feel you must punish yourself or in some other way atone for your sin.</p>
+  <p> Consequently a great deal of negative energy is built up in your mind and your desire for punishment can produce a great deal of self-recriminations in your behavior.</p>
+  <p> Get in a comfortable, relaxed position and close your eyes.</p>
+  <p> Take a few deep abdominal breaths and progressively relax all parts of your body from your toes to your head.</p>
+  <p> Now visualize the guilty event the way it was done.</p>
+  <p> See the effect you had on other people.</p>
+  <p> Get in touch with it and experience it.</p>
+  <p> See yourself as others see you, not how you think they see you or how you would like them to see you.</p>
+  <p> Be honest with yourself.</p>
+  <p> Now change the visualization and switch the picture to see the event the way it should have been done -- step by step.</p>
+  <p> Instead of feeling fear, anger or resentment, experience it with love, understanding and joy.</p>
+  <p> Look at it as part of the big picture of your life, not as an isolated incident.</p>
+  <p> A great deal of negative energy will be released the very first time that you do this visualization, because you are at the subjective level when you review the incident in your mind.</p>
+  <p> This releasing of your guilty energy necessitates no punishment whatsoever, and the act need never be repeated.</p>
+  <p> The important thing is that once you have cleaned your mental house of guilt, don't rerun the same negative mental pictures that got you there before.</p>
+
+</body>
+</html>

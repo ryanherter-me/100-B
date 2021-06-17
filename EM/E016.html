@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Positive Energy Imaging</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 16 </p><h1>Positive Energy Imaging</h1>
+  <p> Everything in the universe is interconnected in some way.</p>
+  <p> Each one of your thoughts has some kind of an effect on the things in your environment -- from the animate to the inanimate.</p>
+  <p> Thoughts involving emotions are especially effective in this capacity on both yourself as well as on others.</p>
+  <p> Many of these effects are discussed in other exercises in this manual.</p>
+  <p> Since your adverse thoughts have adverse effects on your health and well being, beneficial thoughts have a positive influence on your overall welfare.</p>
+  <p> Assume a comfortable, relaxed position and take a few deep, abdominal breaths.</p>
+  <p> Close your eyes and relax all parts of your body progressively from your toes to your head.</p>
+  <p> Imagine that an inverted white tornado has enveloped your entire body with the small end leading up to infinity.</p>
+  <p> Visualize the large end swirling around you and through you with purifying energy.</p>
+  <p> All your hurts, negativities, and non-productive programming are being cleansed and washed away.</p>
+  <p> Feel the energy flow through you with a tingling sensation.</p>
+  <p> You are overflowing with this energy.</p>
+  <p> You are radiating this energy from every pore in your body.</p>
+  <p> Visualize all your fear, anger, guilt, depression, worry, loneliness and other negative emotion transforming to love, appreciation, joy, compassion, forgiveness and contentment.</p>
+  <p> Imagine and feel it changing from negative to positive.</p>
+  <p> Visualize yourself with a complete body and mind that is whole and well.</p>
+  <p> Experience the clarity, and notice a feeling of freedom, joy and power spreading over you.</p>
+  <p> Use this energizing technique any time you want to get clear of negative feelings and emotions.</p>
+  <p> As a variation to this exercise, you can also project this visualization of an inverted, white tornado of swirling, cleansing energy over someone else to help rid them of the negative feelings in their life.</p>
+  <p> Visualize them receiving this purifying tornado of positivity and feeling complete and whole again.</p>
+
+</body>
+</html>

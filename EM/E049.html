@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Control The Meaning Of Words</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>EMOTIONAL MANAGEMENT</p><p>Exercise 49 </p><h1>Control The Meaning Of Words</h1>
+  <p> As long as words carry meaning, the mind is occupied with the thought of that meaning.</p>
+  <p> When the words become meaningless, there is nothing left in the consciousness except the monotonous sound-image, and that too then can disappear.</p>
+  <p> Your name always catches your attention if mentioned in a crowd.</p>
+  <p> Much of your identity is often bound up in your name.</p>
+  <p> In this exercise, say your name the way you normally answer to it and repeat it aloud for a full 5 minutes.</p>
+  <p> If your name is John Schofield and you are called Johnny, then repeat aloud Johnny Schofield softly to yourself.</p>
+  <p> After a few moments, your first and last names will begin to run together in a blur of sound.</p>
+  <p> Don't stop though; continue repeating your name aloud for 5 minutes.</p>
+  <p> You may become disoriented after hearing your name reduced to a continual sound.</p>
+  <p> Old remembrances of you as a child or infant will pop up.</p>
+  <p> You also might find yourself externalizing and viewing yourself repeat your name as if you were outside the body.</p>
+  <p> The exercise is directed toward an intuitive knowing that you are more than a name and identity, more than your body and physical brain, more than your job or daily role playing, more than your individual sex and even more than your mind.</p>
+  <p> The poet, Tennyson, could spontaneously evoke mystical experiences with himself by the technique of repeating aloud his name over and over again.</p>
+
+</body>
+</html>
