@@ -7,8 +7,10 @@ body{
 
 title{
   font-size: 2.15em;
-  font-family: Rancho;
   margin: 40px 0;
   text-align: center;
 }
-@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+h3{
+  font-size:3em;
+  padding:4em;
+}
