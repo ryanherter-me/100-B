@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Backward Sentence Writing</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 137 </p><h1>Backward Sentence Writing</h1>
+  <p> As you master each one of these mind expanding exercises, you'll probably realize that your potential capabilities are far greater than you originally suspected.</p>
+  <p> Having gotten this far, you now have a good sense of accomplishment and achievement.</p>
+  <p> Now think of a short sentence to yourself and write the letters and words backwards.</p>
+  <p> For example, "My mind is growing strong" becomes "gnorts gniworg si dnim yM."</p>
+  <p> Do this with 30 different sentences.</p>
+  <p> As you become increasingly more proficient with writing sentences backwards, increase their word and sentence length.</p>
+  <p> You can even practice this while going to and from work.</p>
+  <p> Look at billboard signs for a second; then spell the sentences you see there backwards to yourself.</p>
+  <p> This is also another way of utilizing those odd moments during the day.</p>
+  <p> Practice this exercise 30 to 60 minutes each day or until it becomes easy for you to do.</p>
+  <h3><a href="/MT/E136.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E138.html">Next</a></h3>
+
+</body>
+</html>

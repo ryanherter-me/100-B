@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Jumbled Words</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 136 </p><h1>Jumbled Words</h1>
+  <p> If you dutifully mastered all the preceding exercises in this section, the jumbled words below should take you no longer than a few seconds for each one.</p>
+  <p> For beginning practice though, write a list of 50 words that are 6 or more letters in length, but write them all backwards.</p>
+  <p> Now look at the beginning sets of jumbled 4-letter words below.</p>
+  <p> They are easily unscrambled because their jumbled patterns are not too drastic.</p>
+  <p> Practice unscrambling these words first in your head, then move quickly on to the next part of the exercise.</p>
+  <p> TMRA OHLE SWIH SKSI KARM MLBI LTFI IDSA SLAE ESAR TMEA ERTE RSAM NWIT NGSO KLAE AITL SNOE WEDO DLNE ADOL INRA NSED KSIC HNIS EIST Now focus your mind on these jumbled 5-letter words with relaxed concentration and unscramble them.</p>
+  <p> KAREB SNDKI HGIST RLODE KTISC PHACE RATST EHERW KHITN RICPK GRNIB SEIAR NITTS HCWIH OOBST HACSR HTLGI CIERP SSEEK NRIBA ESOLT SWITN Unscramble the following 6-letter words in the same way.</p>
+  <p> RLEETT NTTOER DWSIHE RWSIEP SSTAEW NMIAED NTEMOL RNIKDE EEWPSS EEARTC SKRACC BTTERE PSYICR LPACER TANEML SNOETL RIWEHT MYOTRS If you had any trouble with the jumbled words above, turn the manual upside down and unscramble any that have stumped you.</p>
+  <p> Your right brain is often kicked into gear in this way, because it interprets upside down material.</p>
+  <p> In the future, do jumble word games and anagrams to keep in practice.</p>
+  <h3><a href="/MT/E135.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E137.html">Next</a></h3>
+
+</body>
+</html>

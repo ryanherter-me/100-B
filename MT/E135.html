@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Backward Word Intermingling</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 135 </p><h1>Backward Word Intermingling</h1>
+  <p> After completing "<a href="MT/E134.html">Exercise 134 - Back And Forth Word Intermingling</a>," the acuity of your mind is at a stage where the following exercise can be mastered easily.</p>
+  <p> Write a list of six 6-letter words, but write them all backwards like so: TRESSA GNIKIL EGRAHC MAERTS TNIUQS YLEVOL Memorize your list as it looks on your paper and then remove it from view.</p>
+  <p> Now without looking back at your list, begin writing the last letter of the 1st word, the last letter of the 2nd word, and the last letters of the 3rd, 4th, 5th and 6th words.</p>
+  <p> Using the sample words above, the drill would begin like this: TGEMTY.</p>
+  <p> Visualize your list and continue writing the line of letters as you did in "<a href="MT/E134.html">Exercise 134 - Back And Forth Word Intermingling</a>."</p>
+  <p> The line of letters on the above example would appear like this, if done correctly: T G E M T Y R N G A N L E I R E I E S K A R U V S I H T Q O A L C S S L 1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 56 1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6 Spend 30 to 60 minutes each day on this drill until you can write the whole line of words without hesitation.</p>
+  <p> Every time, work only from memory and create new word lists each day, but practice until this exercise is thoroughly mastered.</p>
+  <h3><a href="/MT/E134.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E136.html">Next</a></h3>
+
+</body>
+</html>

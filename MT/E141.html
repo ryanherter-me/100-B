@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Intermingling & Spelling Simultaneously</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 141 </p><h1>Intermingling & Spelling Simultaneously</h1>
+  <p> After completing "<a href="MT/E140.html">Exercise 140 - 7 & 8-Letter Word Calisthenics</a>," you are now ready to open up another track in your brain.</p>
+  <p> On a clean sheet of paper, print two 5letter words and one 8-letter word.</p>
+  <p> Memorize them and remove the paper from view.</p>
+  <p> Now write one of the 5-letter words forward while writing the other 5-letter word backwards intermingled, but spell aloud the 8-letter word forwards as you do this.</p>
+  <p> For example, S - T - A - R - T and B - E - G - I - N are written like this: SNTIAGRETB while spelling aloud M -A - S - T - E - R - E - D.</p>
+  <p> Do this drill 20 times with 20 different sets of words.</p>
+  <p> Next, write two 5-letter words intermingled and backwards while spelling aloud an 8-letter word backwards.</p>
+  <p> For example, S - T - Y - L - E and O - F - T - E - N are written like this: ENLEYTTFSO while spelling aloud G - N - I - T - S - I - X - E.</p>
+  <p> Do this drill 20 times with 20 different sets of words.</p>
+  <p> Now write one 6-letter word forwards while writing intermingled another 6-letter word backwards.</p>
+  <p> At the same time, spell aloud a 10-letter word forwards.</p>
+  <p> For example, E - A - S - I - E - R and M - E - M - O - R - Y become EYARSOIMEERM, while spelling aloud S - I - M - P - L - I - S - T - I - C.</p>
+  <p> Next, write two 6-letter words intermingled and backwards while spelling aloud a 10-letter word backwards.</p>
+  <p> For example, B - E - T - T - E - R and P - E - O - P - L - E become ERLEPTOTEEPB, while spelling aloud E - V - I - T - C - U - D - O - R - P.</p>
+  <p> Do this drill 20 times with 20 different sets of words.</p>
+  <p> After completing all the exercises up to this point, you should be now capable of carrying on at least 4 independent mental functions at the same time.</p>
+  <p> You can see, interpret and write, while hearing and conversing simultaneously about one or more subjects.</p>
+  <h3><a href="/MT/E140.html">Previous</a><a href="/MT.html">Home</a><a href="/GM/E142.html">Next</a></h3>
+
+</body>
+</html>

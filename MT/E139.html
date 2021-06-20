@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Jumbled Sentences</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 139 </p><h1>Jumbled Sentences</h1>
+  <p> If you've completed the preceding exercises dutifully, you should now be seeing things with a totality and completeness that you have never before experienced.</p>
+  <p> Your present multi-level thinking makes you more confident and competent, so handle yourself wisely.</p>
+  <p> Now think of a sentence of more than 7 words and write it in a forward sequence with each word jumbled.</p>
+  <p> For example "My mental powers are increasing every day in every way" becomes "yM ntelam rspoew rae cgnrnaeisi evyre ayd ni yrvee awy."</p>
+  <p> Practice this drill with 30 different sentences.</p>
+  <p> Next, think of a sentence of more than 7 words and write it in a backward sequence with each word jumbled.</p>
+  <p> For example, "My mind is developing extraordinary abilities to apply in my everyday life" becomes "feli aveerydy ym ni playp ot iitibaesl ryandiroarxte ngpiolevde si nmid yM."</p>
+  <p> Do this drill 3 times with different sentences.</p>
+  <p> Now think of two 7 or 8-word sentences and write one sentence in a forward sequence with the letters of the words jumbled while intermingling in a backward sequence the jumbled words of the other sentence.</p>
+  <p> For example, "Your thinking capacity is increasing every day" and "Mental gymnastics are good for the brain" become "oruY nibar ngkhitni eth tiyacpca rfo si odgo gisnaenirc rae ryvee sicstnaymg yda ntlMae."</p>
+  <p> Practice this drill with 30 different sentence pairs.</p>
+  <p> Practice these drills 30 to 60 minutes each day until they are mastered with an unhesitating flow.</p>
+  <h3><a href="/MT/E138.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E140.html">Next</a></h3>
+
+</body>
+</html>

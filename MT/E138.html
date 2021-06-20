@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Sentence Intermingling</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 138 </p><h1>Sentence Intermingling</h1>
+  <p> Your visualization powers have improved greatly after mastering all the preceding word exercises.</p>
+  <p> You are now looking at words quickly and completely.</p>
+  <p> You are operating on a multi-track thinking level, instead of one-track thinking level.</p>
+  <p> Now think of two short 3-word sentences and intermingle one forwards and the other backwards.</p>
+  <p> For example, "Kindness is better" and "Love is beautiful" become: LroevtetiesbbseiasusteinfdunliK Next, think of two 3-word sentences and intermingle both of them backwards.</p>
+  <p> For example, "Think in color" and "Emotions can kill" become: rlolliokcnnaicksnniohiTtomE Now think of two 4-word sentences and intermingle one forwards and the other backwards.</p>
+  <p> For example, "Mental effort can help" and "Let us vary techniques" become: sMeeunqtianlhecfeftoyrrtacvasnuhteelLp Next, think of two 4-word sentences and intermingle both of them backwards.</p>
+  <p> For example, "Thinking is not habitual" and "Breathing is far easier" become: rleaiustaiebraahftsoingsniighntiakenriBhT Practice these drills until they become easy for you.</p>
+  <p> Devote at least 30 to 60 minutes per day to them and choose 30 different sentence pairs each day for each drill.</p>
+  <h3><a href="/MT/E137.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E139.html">Next</a></h3>
+
+</body>
+</html>

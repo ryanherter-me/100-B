@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>3-Letter Word Intermingling</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>MULTI-TASKING </p><p> Exercise 130 </p><h1>3-Letter Word Intermingling</h1>
+  <p> After mastering "<a href="MT/E129.html">Exercise 129 - 4-Letter Word Calisthenics</a>," you are now ready for more mind manipulation.</p>
+  <p> Think of any two 3-letter words and write them on a sheet of paper by intermingling their forward sequence.</p>
+  <p> Thus, A - R - K and O - D - D become AORDKD.</p>
+  <p> Practice this until you can smoothly write 30 different pairs of intermingled 3-letter words without hesitation.</p>
+  <p> Now think of two 3-letter words and intermingle one forwards and the other backwards.</p>
+  <p> For example, T - O - N and I - C - E become TEOCNI or NIOCTE.</p>
+  <p> Do this drill 30 times with different words.</p>
+  <p> Next, think of two 3-letter words and intermingle one backwards and the other backwards too.</p>
+  <p> For example, L - E - T and I - N - K become KTNEIL or TKENLI.</p>
+  <p> Do this drill 30 times with different words.</p>
+  <p> By mastering these drills, you stop coddling your brain.</p>
+  <p> You're stretching its potential in a progressive fashion.</p>
+  <p> You're on the road to greater mental development.</p>
+  <p> Devote 30 to 60 minutes a day to these drills until they are mastered.</p>
+  <h3><a href="/MT/E129.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E131.html">Next</a></h3>
+
+</body>
+</html>

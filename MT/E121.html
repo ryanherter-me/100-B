@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Writing & Speaking Simultaneously</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+<p>MULTI-TASKING </p><p> Exercise 121 </p><h1>Writing & Speaking Simultaneously</h1>
+<p> When you first learn how to shift gears in a car or ride a bicycle or type on a typewriter, talking interferes with your performance.</p>
+<p> After the motor skill becomes 'automatic,' conversing with someone at the same time provides no problem.</p>
+<p> Also, writing mirror language (see "<a href="MT/E125.html">Exercise 125 - Writing Mirror Language</a>") with your left hand (right brain) while conversing simultaneously (left brain) is far easier than writing normal script with your right hand and conversing at the same time, because both functions tend to interfere with each other on the left side of the brain.</p>
+<p> To facilitate his creation of musical compositions, Mozart often asked his wife to read to him so he could more freely think out the musical notes in his head.</p>
+<p> Mozart was unaware of hemispheric brain functions, but he did know this procedure helped him.</p>
+<p> As a priming exercise, take a sheet of paper and write 50 four-letter words backwards.</p>
+<p> This gets the mind looking more completely at words and also sharpens your inner visualization process as well.</p>
+<p> Now begin writing the 4-letter words backwards from memory as you recite the alphabet, a favorite poem, the 2's table, the 3's table, the 5's table or sing a familiar tune.</p>
+<p> Next, say the alphabet backwards or with transposed letters (see "<a href="MT/E127.html">Exercise 127 - Alphabet Gymnastics</a>"), while writing 4letter words backwards.</p>
+<p> Then write the alphabet backwards or intermingled, while reciting your name and address or the numbers from 100-1 (e.g. 100-99-98, etc.).</p>
+<p> Now recite the alphabet backwards while adding, subtracting, dividing or multiplying some figures.</p>
+<p> After completing these exercises, your mind should begin feeling more supple.</p>
+<h3><a href="/MT/E120.html">Previous</a><a href="/MT.html">Home</a><a href="/MT/E122.html">Next</a></h3>
+
+</body>
+</html>
