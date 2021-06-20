@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Peg System For Lists</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>SUPER MEMORY </p><p> Exercise 88 </p><h1>Peg System For Lists</h1>
+  <p> Without memory, learning would fail to exist.</p>
+  <p> Memory associations are either conscious or subconscious, and they are what constitute learning.</p>
+  <p> By using the peg system in "<a href="SM/E087.html">Exercise 87 - Peg System For Numbers</a>," the following words have been assigned to the numbers from 1 - 50.</p>
+  <p> By learning this set of peg words, you can associate other words to them for better recall later.</p>
+  <p> If a college student is trying to remember lecture details, this same method can help 'peg' and provide useful associations for the information when it needs to be retrieved later.</p>
+  <p> 1 2 3 4 5 6 7 8 9 10 - TIE NOAH MAY RAY LEI SHOE KEY FEE BEE TOES 11 12 13 14 15 16 17 18 19 20 - TIT TIN TOMB TIRE TAIL DISH TACK TAFFY TUB NOSE 21 22 23 24 25 26 27 28 29 30 - NET NUN GNOME NERO NAIL NICHE NECK NAVY KNOB MOUSE 31 32 33 34 35 36 37 38 39 40 - MAT MOON MOM MARE MAIL MATCH MIKE MUFF MAP ROSE 41 42 43 44 45 46 47 48 49 50 - RAT RAIN RAM REAR RAIL RASH RAKE REEF ROPE LACE If these key words don't suit you, make up your own.</p>
+  <p> Now as an exercise, memorize the Presidents of the United States by associating the peg word in a ridiculous way with the corresponding President.</p>
+  <p> Work with the peg words every day until it becomes natural to associate them with grocery lists and other daily information.</p>
+  <h3><a href="/SM/E087.html">Previous</a><a href="/SM.html">Home</a><a href="/SM/E089.html">Next</a></h3>
+
+</body>
+</html>
