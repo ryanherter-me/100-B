@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creating Palindromes</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 75 </p><h1>Creating Palindromes</h1>
+  <p> A palindrome is a word, phrase, or sentence that reads the same backward or forward.</p>
+  <p> You store words in various ways in your mind.</p>
+  <p> To search your mind for palindromes requires a special kind of brain accessing.</p>
+  <p> Like an organic computer, the right "program" often can access the information you want.</p>
+  <p> Some examples of palindromes are noon, radar, or "Madam, I'm Adam."</p>
+  <p> By proceeding through the alphabet and quickly interchanging double consonants with various vowels, many 3-letter words can quickly be achieved, like DAD or GAG.</p>
+  <p> By expanding your inner vision to interposing double vowels between double consonants 4-letter palindromes can be achieved, like NOON or DEED.</p>
+  <p> By expanding your inner vision further still and thinking of one consonant straddled by a double vowel, you can roll through the alphabet for applicable double consonants, like EVE can become LEVEL and ADA can become MADAM or RADAR.</p>
+  <p> Now list as many single word palindromes as you can think of, avoiding proper nouns.</p>
+  <p> If you have trouble with this exercise, here’s a technique that might shake the cobwebs out of your head.</p>
+  <p> It has been shown that utilization of a particular brain area for a task increases the electrical activity, blood volume and corresponding heat in that area - more blood into an area, more heat in that area.</p>
+  <p> It has also been shown that raising the temperature of your head by 1°C increases the brain's ability to carry out certain complex mental activities like mathematics, visual puzzle-solving and better decision-making in 5% to 15% faster time.</p>
+  <p> Now lower your head to a position under your chair for a few moments to increase the blood volume to your head and corresponding heat to your brain.</p>
+  <p> Then raise your head and see if you can come up with more palindromes.</p>
+  <p> Some examples of palindromes: PIP______POP______PAP______PUP______PEP______PEEP______POOP______TUT______ TIT______TOT______TAT______TOOT______BOB______BUB______BIB______DAD______DID______ DUD______DEED______EYE______GIG______MOM______MAM______MUM______SIS______ EWE______KOOK______WOW______BOOB______NUN______EVE______GAG______ERE______ EKE______REFER______DELED______STATS______ROTOR______SEXES______LEVEL______ TENET______CIVIC______KAYAK______REVIVER______DEIFIED______REDDER______ RELEVELER______REDIVIDER______</p>
+  <h3><a href="/IT/E074.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E076.html">Next</a></h3>
+
+</body>
+</html>

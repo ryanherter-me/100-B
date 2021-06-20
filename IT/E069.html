@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creative Uses For Everyday Things</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>INNOVATIVE THINKING</p><p>Exercise 69 </p><h1>Creative Uses For Everyday Things</h1>
+  <p> The world is filled with wasteful habits.</p>
+  <p> By thinking creatively, normal throw away items can be utilized or recycled productively.</p>
+  <p> When physically attacked, some creative individuals have used pencils, pens, hat pins, credit cards, combs and belts as weapons to ward off attackers.</p>
+  <p> In impoverished countries, the poor by necessity have used the bottom half of glass bottles as glasses and cups; the top half of plastic bottles as funnels and the bottom half as flower pots; newspapers become wrapping paper, etc.</p>
+  <p> How many creative uses can you think of for the following household items?</p>
+  <p> There are no wrong answers, so think wild.</p>
+  <p> Use your notebook, and list as many uses as you can for each item during the next seven minutes.</p>
+  <p> Empty Soup Can - 20 Bottle Caps - Torn Lamp Shade - Broken Scissors - Toilet Paper Tube - Old Electrical Cord - Broken Comb - Light Bulb</p>
+  <h3><a href="/IT/E068.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E070.html">Next</a></h3>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Memorizing Sayings</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 72 </p><h1>Memorizing Sayings</h1>
+  <p> Actors learn to memorize long lines and passages.</p>
+  <p> Have you ever heard proverbs and sayings that you liked, but never bothered to commit them to your memory?</p>
+  <p> Like new vocabulary words, to incorporate a new saying to your repertory of picturesque speech, it really doesn't take that much time or trouble at all.</p>
+  <p> To illustrate a point or to make a subject entertaining, anecdotal material is often helpful whether it is of your own creation or from others.</p>
+  <p> To get in the frame of mind to memorize sayings, it can help to create some for yourself first to prime the mental pump so to speak.</p>
+  <p> Think for 60 seconds and contrive 2 sayings of your own originality, and write them down.</p>
+  <p> For example: Those who know the least know it the loudest.</p>
+  <p> The future isn't what it used to be.</p>
+  <p> Now memorize the following 3 sayings and their authors in the next 5 minutes and show yourself how simple it is.</p>
+  <p> When you do this, give your recitations of the passages a singing intonation to throw the information to the right brain.</p>
+  <p> For most right-handed people, it can also improve your auditory recall and recitation by shifting your eyes to the left (the opposite is often true with left-handed people).</p>
+  <p> An eye movement to the left seems to activate the brain's auditory memory area.</p>
+  <p> The great end to life is not knowledge, but action.</p>
+  <p> Thomas Henry Huxley Man is what he believes.</p>
+  <p> Anton Chekhov When I was younger, I could remember anything, whether it happened or not.</p>
+  <p> Mark Twain</p>
+  <h3><a href="/IT/E071.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E073.html">Next</a></h3>
+
+</body>
+</html>

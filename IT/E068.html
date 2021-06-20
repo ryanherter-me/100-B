@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>>Word Creation</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 68 </p><h1>Word Creation</h1>
+  <p> Out of the name, Marilyn Monroe, make as many words as you can of 3 letters or more from the letters in the name that are not foreign words, abbreviations, contractions, proper names or slang.</p>
+  <p> Time yourself for 2 minutes.</p>
+  <p> This simple exercise increases your imaging ability as well as your ability to see things from various angles.</p>
+  <p> Practicing this in a timed condition improves your alacrity of mind too.</p>
+  <p> Now take another name and do the same thing, but write all the words backwards, instead of forwards.</p>
+  <p> As an intuitive variation to this exercise, use the name of someone with which you are currently involved or with which you are contemplating a relationship, and write as many meaningful words as you can using only the letters in their name.</p>
+  <p> Oftentimes, you will find that single words or groups of two words or more put together will carry a message of importance to you about this person or your involvement with this person.</p>
+  <p> Now list as many 3-letter words as you can on a separate sheet of paper that contain the letter "G" in the word.</p>
+  <p> Time yourself for 3 minutes.</p>
+  <p> If you got over 25 you did well.</p>
+  <p> Next, write as many words of any length as you can with the letter "J" in them, but not being the first letter of the word.</p>
+  <p> Time yourself for 3 minutes.</p>
+  <p> If you got over 25, you're on the way to mental mastery.</p>
+  <p> Write as many 4 letter words as you can where the following pairs of letters come in the beginning, middle or end of the word.</p>
+  <p> For example, if your letter pair was at you could write oats and atom and chat.</p>
+  <p> Now time yourself for 2 minutes on each of the following pairs of letters and see how many words you can create.</p>
+  <p> TH ST AP SE</p>
+  <h3><a href="/IT/E067.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E069.html">Next</a></h3>
+
+</body>
+</html>

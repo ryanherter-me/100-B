@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creative Thinking (Aims, Goals, Objectives)</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 61 </p><h1>Creative Thinking (Aims, Goals, Objectives)</p>
+  <p> Learn to define your aims, goals and objectives in life's situations.</p>
+  <p> Make a list of all your reasons for doing a particular thing.</p>
+  <p> Even though you assume that you know what your goals are, often hidden or unconsidered goals get in the way.</p>
+  <p> Without a clarity of purpose, all actions are either reactions to a situation or matters of habit or imitation.</p>
+  <p> As a practice exercise, write down all your possible aims, goals and objectives as if you were a captain of a spaceship approaching Earth for the first time from another planet.</p>
+  <p> Did you create a long list?</p>
+  <p> Now do the same thing with something in your own life.</p>
+  <p> A tennis player that kept delivering kill shots into the net thought his goal was to win the game, but in reality it was an undetected desire to look terrific.</p>
+  <p> As another exercise, look at how you currently do your daily chores and duties throughout your day.</p>
+  <p> Now put on your creative hat and think about how you could possible perform your daily tasks but in a creatively different way.</p>
+  <p> This exercise relieves you of the habit that often restricts you to one way thinking and doing things.</p>
+  <p> The more you practice accomplishing things in novel ways, the better you get at it.</p>
+  <p> You can think wild or standard, active or inactive, open-minded or narrow-minded.</p>
+  <p> The choice is yours, but practice wearing different thinking hats.</p>
+  <p> Sometimes it helps the process by assuming a role and saying - if I were Jesus, Einstein or the President, how would I think?</p>
+  <h3><a href="/IT/E060.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E062.html">Next</a></h3>
+
+</body>
+</html>

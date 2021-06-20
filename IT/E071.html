@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>>No Vowel Shorthand</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 71 </p><h1>No Vowel Shorthand</h1>
+  <p> This exercise will allow to you transcribe lectures quickly and comfortably.</p>
+  <p> To get your mind accustomed to acknowledging words in a brief but intelligible style, practice listening to a speech or lecture and write down your notes without using any vowels - only consonants.</p>
+  <p> For example: This technique allows you to recognize and write your words down in half the time.</p>
+  <p> Becomes: Ths tchnq llws y t rcgnz nd wrt yr wrds dwn n hlf th tm.</p>
+  <p> To make this exercise easier in the beginning, listen to a radio or TV newscaster and write down what he says while eliminating only one vowel, then make it 2 vowels, then 3 and so on until you can write down every word with all vowels omitted.</p>
+  <h3><a href="/IT/E070.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E072.html">Next</a></h3>
+
+</body>
+</html>

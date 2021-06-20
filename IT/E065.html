@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creating Metaphors and Similes</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 65 </p><h1>Creating Metaphors and Similes</h1>
+  <p> Metaphorical thinking is the ability to make connections between two unlike things by recognizing that in some way they share a mutual trait or exemplify a common principle.</p>
+  <p> A simile more specifically connects these two dissimilar things with the words "like" or "as."</p>
+  <p> A metaphor provides you with an extremely efficient way to organize and remember information.</p>
+  <p> It brings your own experience into focus and it can be a lot of fun.</p>
+  <p> Aristotle once said, "The greatest thing by far is to be a master of the metaphor."</p>
+  <p> Now create metaphors & similes around any of the following words - Love, Confidence, Genius, Music, Pollution, Curiosity - What animals, plants, colors, shapes, minerals or other things are metaphorically like the above words?</p>
+  <p> Here are some examples to get you started:</p>
+  <p> 1) LOVE is like a pure spring rain gently stimulating my entire being.</p>
+  <p> 2) Demonstrating CONFIDENCE is like opening the envelope of courage.</p>
+  <p> 3) A spoonful of GENIUS can dispel an ocean of the unknown.</p>
+  <p> 4) The diversity of MUSIC is like the spectrum of light, visible and invisible in its range of appreciation.</p>
+  <p> 5) World POLLUTION is like a disintegrating work of art.</p>
+  <p> 6) The light of CURIOSITY can puncture the abyss of ignorance.</p>
+  <h3><a href="/IT/E064.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E066.html">Next</a></h3>
+
+</body>
+</html>

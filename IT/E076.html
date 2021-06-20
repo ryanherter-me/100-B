@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Mind Mapping</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+  <p>INNOVATIVE THINKING</p><p>Exercise 76 </p><h1>Mind Mapping</h1>
+  <p> An innovation of Tony Buzan, the mind map evolved from his research in note taking techniques.</p>
+  <p> A mind map consists of a central word or concept, around which you draw 5 to 10 main ideas that relate to that word or concept.</p>
+  <p> Then you take each of those words and draw 5 to 10 main ideas that relate to each of those words.</p>
+  <p> New ideas can be placed in the right place and the map encourages the reduction of each idea to a single word.</p>
+  <p> A mind map is a way to organize your thoughts or ideas around a major theme or subject, and assist you in making brain linkages and connections for better recall later.</p>
+  <p> You can apply the mind map principle to a variety of situations, whether it’s a book you just read, a lecture you just heard, or a vision you just had - creating a mind map around its central theme can bring clarity and order to your thoughts, and you can depict it all on a single sheet of paper.</p>
+  <p> Research by Tony Buzan on note taking revealed that out of the various methods of learning after a lecture - writing transcripts, writing summaries or writing key words - key words written by the student was the most effective way of remembering a lecture given to them.</p>
+  <p> As an exercise in creating mind maps, use the below skeleton of a simple mind map and improvise from there with sample words or ideas that relate to the central theme of a book you just read or a movie you just saw and see how effective it is for organizing your thoughts.</p>
+  <p> You’ll also find that reviewing your mind map later will bring the summary or essence of the book or movie back quickly to you.</p>
+  <p> Also if the book or movie is particularly important for you to learn and retain, redrawing the mind map from memory a few times will implant the information very solidly in your memory.</p>
+  <p> minor theme minor theme minor theme minor theme main theme main theme minor theme minor theme main theme Central Theme main theme minor theme minor theme main theme minor theme minor theme main theme minor theme minor theme</p>
+  <h3><a href="/IT/E075.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E077.html">Next</a></h3>
+
+</body>
+</html>

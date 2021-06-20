@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title></title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 70 </p><h1>Sentence Creation Out Of Letters</h1>
+  <p> This exercise will develop expressive fluency and cognitive flexibility.</p>
+  <p> Write numerous 4 word sentences using the letters of each of the following words: TEAR CARE RING SEND FEAR MILE RUBY TAKE For example: T Take Trolls E everything entered A and and R run.</p>
+  <p> rested.</p>
+  <p> LOVE</p>
+  <h3><a href="/IT/E069.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E071.html">Next</a></h3>
+
+</body>
+</html>

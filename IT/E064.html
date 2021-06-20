@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Problem Solving Via Drawing</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>INNOVATIVE THINKING</p><p>Exercise 64 </p><h1>Problem Solving Via Drawings</h1>
+  <p> One interesting technique that works wonders in problem solving is making drawings for yourself.</p>
+  <p> As an exercise, for one week while you are conceptualizing your problems, carry a cheap small notebook and make drawings for yourself.</p>
+  <p> Your drawings can be doodles, block diagrams, schematics, squiggles, sketches or whatever you wish.</p>
+  <p> Observe which of these drawings helps you in problem solving and which do not.</p>
+  <p> Drawings have an amazing power and ability to convey precise information, even if crudely done.</p>
+  <p> Try it, you'll like it.</p>
+  <p> Since art is basically a right brain activity, talk about your problems aloud to yourself while idly doodling and sketching anything which comes up.</p>
+  <p> As a path to the subconscious is cleared, solutions will be automatically drawn in caricature or abstract form.</p>
+  <p> If you choose the same room, chair and time of day for the exercise, daily repetition will eventually produce surprising results.</p>
+  <p> Precede this exercise with relaxation, affirmation and deep breathing and you'll optimize your results.</p>
+  <p> If you use your left hand (right brain) for sketching, this can often assist you in the generation of ideas.</p>
+  <h3><a href="/IT/E063.html">Previous</a><a href="/IT.html">Home</a><a href="/IT/E065.html">Next</a></h3>
+
+</body>
+</html>
