@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Pain Away Breathing</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>GENERAL MIND STIMULATION </p><p> Exercise 148 </p><h1>Pain Away Breathing</h1>
+  <p> This exercise for the relief of minor pain is based on following the beats of your heart, so sit or lie down in a relaxed position.</p>
+  <p> Feel your pulse and begin by counting the beats aloud, until you get a sense of the rhythm.</p>
+  <p> Inhale through your nose to the count of 6, hold it to the count of 3, exhale to the count of 6, pause for 3 counts; then repeat the process.</p>
+  <p> While inhaling, visualize energy being sent to the painful area to repair damaged cells and reestablish proper circulation.</p>
+  <p> When exhaling, imagine the pain exiting the body.</p>
+  <p> Repeat this cycle 7 times; then rest.</p>
+  <p> Repeat the process two more times in sets of 7.</p>
+  <p> To provide variety to the exercise, breathe in the color orange during the procedure above (or whatever other color your inner self deems more suitable).</p>
+  <p> This breathing technique not only eliminates pain, but also many negative emotional feelings as well.</p>
+  <p> Also, since laughter releases pain-relieving endorphins into your system, artificially laugh occasionally to assist the process of pain relief.</p>
+  <h3><a href="/GM/E147.html">Previous</a><a href="/GM.html">Home</a><a href="/GM/E149.html">Next</a></h3>
+
+</body>
+</html>

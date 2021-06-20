@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Creative Alternative</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>GENERAL MIND STIMULATION </p><p> Exercise 158 </p><h1>Creative Alternatives</h1>
+  <p> Are you looking for a trouble free life?</p>
+  <p> Don't you think that every time you take the trouble to figure out solutions to your problems, you grow?</p>
+  <p> Those that insulate themselves from troubles often become greatly troubled inside for a lack of something they can't quite define.</p>
+  <p> There's a sense of adventure and accomplishment that goes hand in hand with figuring out solutions to your so-called problems in life.</p>
+  <p> Without these challenges, you wither away and vegetate.</p>
+  <p> Did you ever wonder why the magnitude of world problems are measured in dollar signs?</p>
+  <p> If money solved all problems and brought happiness, then all rich people and all rich countries would be happy and free of any major problems, right?</p>
+  <p> Have you ever felt helpless about all the problems in the world?</p>
+  <p> As an exercise, make a list of all the times in your life when your actions caused a chain of events to take place that affected major changes in another person's life.</p>
+  <p> After looking over your list, you can readily see how you as one person can do a great deal in your lifetime to affect important changes in the world.</p>
+  <p> Now list in a notebook all the creative alternatives that you as a world citizen with your present abilities can do to help correct the problems of pollution (air, food, water & soil), crime, drug addiction, the homeless and poor education without spending hardly any money.</p>
+  <p> Next list in your notebook all the important things that happened to you last week that involved an outlay of money?</p>
+  <p> Next, list in a notebook all the important things that happened to you last week that didn't involve any money at all?</p>
+  <h3><a href="/GM/E157.html">Previous</a><a href="/GM.html">Home</a><a href="/GM/E159.html">Next</a></h3>
+
+</body>
+</html>

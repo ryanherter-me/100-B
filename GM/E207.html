@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Learning Observational Subtleties</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>GENERAL MIND STIMULATION </p><p> Exercise 207 </p><h1>Learning Observational Subtleties</h1>
+  <p> Magicians rely on distraction and taking your conscious attention away from the observational subtleties that would otherwise reveal their tricks.</p>
+  <p> For instance, a popular party trick involves apparent 'telepathy' with a partner.</p>
+  <p> The audience chooses an object (size does not matter) in the room while you are out of the room.</p>
+  <p> You return and with your back turned or blindfolded, your partner points to various objects in the room.</p>
+  <p> He says, "Is this the object we chose?</p>
+  <p> You say, "No," until he points to the target object and you say, "Yes.</p>
+  <p> The trick can be done in various ways.</p>
+  <p> Your partner and yourself can predesignate ahead of time that when the sixth object is pointed to -- it will be the correct one.</p>
+  <p> You can vary it by coding the questioning to a different sentence when the correct one is pointed to.</p>
+  <p> You can do it unblindfolded and agree with your partner ahead of time that the correct object will be after he points to a chair in the room or after he turns his pointing pencil around or after he points to something red in the room.</p>
+  <p> Invent other cued variations between your partner and yourself.</p>
+  <p> As an exercise, do this trick and let the group know that there is a subtlety that they are to pick up and repeat the trick the same way until they get it; or have each person write on a piece of paper what he thinks is the solution and silently review the papers to determine who got it.</p>
+  <p> Then go to the next variation and proceed the same way.</p>
+  <p> This exercise keys people into more attention to detail and increases the interest factor for more correct observational recall.</p>
+  <h3><a href="/GM/E206.html">Previous</a><a href="/GM.html">Home</a><a href="/GM/E208.html">Next</a></h3>
+
+</body>
+</html>

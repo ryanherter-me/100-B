@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Time Awareness</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>GENERAL MIND STIMULATION </p><p> Exercise 163 </p><h1>Time Awareness</h1>
+  <p> Some people have to be awakened with an alarm clock and others wake up when they want automatically.</p>
+  <p> In order to do away with your outer alarm clock, you have to learn how to make use of your 'inner alarm clock.'</p>
+  <p> As you relax in preparation for sleep, visualize the face of a clock.</p>
+  <p> Mentally move the hands of the clock to one minute before your real alarm clock is scheduled to go off.</p>
+  <p> After getting good at waking up at that time, you will have no need for physical alarm clocks.</p>
+  <p> As a daily exercise, look at your watch, then for the next hour, periodically guesstimate the time, then afterwards confirm.</p>
+  <p> Then, at odd hours during the day, catch yourself before you look at your watch and guesstimate the time, then check your watch to confirm.</p>
+  <p> With enough practice, there is a certain 'knowingness' that allows you to accurately perform in this manner.</p>
+  <h3><a href="/GM/E162.html">Previous</a><a href="/GM.html">Home</a><a href="/GM/E164.html">Next</a></h3>
+
+</body>
+</html>

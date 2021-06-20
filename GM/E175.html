@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Mental Subtraction</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>GENERAL MIND STIMULATION </p><p> Exercise 175 </p><h1>Mental Subtraction</h1>
+  <p> As with mental addition, mental subtraction can be done from left to right too.</p>
+  <p> Whereas the main problem in normal addition is the need to carry numbers, in subtraction it is borrowing.</p>
+  <p> With the following problems, there is no borrowing necessary.</p>
+  <p> So practice subtracting these by proceeding from left to right: 96 74 97 49 86794 74698765 - 13 - 61 - 56 - 27 - 23581 - 63482514 Now practice from left to right with the following, but when you need to borrow a number (like subtracting 9 from 5) change to 5 to 15 and subtract the 9.</p>
+  <p> After writing the answer down (6), put a slash through the number preceding it.</p>
+  <p> The slash through the number indicates that it is to be read as if it were actually one number less than what it says.</p>
+  <p> For example: 957 8845 7523 8247 3487 7834 9347 - 393 - 4294 - 4419 - 6158 - 4193 - 6956 - 1959 664 Practice until it becomes natural to pair and slash, and soon you'll be able to see the entire process in your mind as well.</p>
+  <h3><a href="/GM/E174.html">Previous</a><a href="/GM.html">Home</a><a href="/GM/E176.html">Next</a></h3>
+
+</body>
+</html>
