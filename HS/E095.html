@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="canonical" href="https://pwa.glitch.me/">
+  <link rel="shortcut icon" href="https://cdn.glitch.com/355b9f14-b08b-4590-9270-46454889b15e%2Ffavicon.ico?1495985662065">
+  <script src="/index.js"></script>
+  <script>
+    // This is just to force HTTPS (can't do it statically on glitch)
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+  </script>
+  <title>Experiencing Another Person’s Senses</title>
+  <meta name="theme-color" content="lightblue">
+</head>
+<body>
+
+  <p>HEIGHTENED SENSORY </p><p> Exercise 95 </p><h1>Experiencing Another Person’s Senses</h1>
+  <p> Sometimes we are so engrossed with our own sensory viewpoint that we neglect to realize that others may experience things differently.</p>
+  <p> Each person's senses differ in their sensitivity and perceptual interpretation.</p>
+  <p> Since people absorb the same sensory information in different ways, our personal realities are different.</p>
+  <p> For this exercise, secure a friend that is willing to relate to you what he or she is experiencing in a sensory way.</p>
+  <p> Now take a walk or a drive or go to a restaurant and relate to each other what you are seeing, smelling, tasting, hearing and feeling as you experience each sensory activity.</p>
+  <p> Most people all too often neglect to relate to another person what they experience in a sensory way.</p>
+  <p> By doing so, extraordinary differences can be picked up and an enrichment of the experience can be added.</p>
+  <p> When two people do the same thing, it's not the same thing at all.</p>
+  <p> Publilius Syrus</p>
+  <h3><a href="/HS/E094.html">Previous</a><a href="/SM.html">Home</a><a href="/HS/E096.html">Next</a></h3>
+
+</body>
+</html>
