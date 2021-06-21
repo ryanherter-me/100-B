@@ -4,24 +4,27 @@ body{
   margin: 2em
 
 }
-
+h3{
+  text-align: center;
+  font-size: 3em;
+}
 h1{
   font-size: 2.15em;
   margin: 40px 0;
   text-align: center;
 }
 p{
-  color: pink;
+  color: hotpink;
   font-size: 2em;
 }
 /* unvisited link */
 a:link {
-  color: red;
+  color: orange;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: violet;
 }
 
 /* mouse over link */
